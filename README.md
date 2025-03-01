@@ -27,7 +27,7 @@ pip install requests beautifulsoup4 pandas
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/web-scraper-wuzzuf.git
+   git clone [https://github.com/your-repo/web-scraper-wuzzuf.git](https://github.com/M07amedrabea/wuzzuf_data_analyst_jobs-Web-Scraping-.git)
    ```
 2. Navigate to the project directory:
    ```bash
@@ -44,7 +44,7 @@ To run the scraper and extract job listings, use the following command:
 ```python
 from scraper import scrape_wuzzuf
 
-data = scrape_wuzzuf(num_pages=5)  # Scrapes 5 pages of job listings
+data = scrape_wuzzuf(num_pages=5)  # Scrapes 15 pages of job listings
 ```
 
 ### Saving Data to CSV
